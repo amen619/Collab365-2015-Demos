@@ -8,15 +8,19 @@
     "adminUsername": {
       "value": 'MyAdministrator'
     },
-    "dnsNameForPublicIP": {
-      "value": 'collab365-2015-demos-virtual-machine'
+    "dnsNamesForPublicIP": {
+      "value": [
+        'collab365-2015-demos-virtual-machine1',
+        'collab365-2015-demos-virtual-machine2'
+      ]
     },
     "scriptToRun": {
       "value": 'Script.ps1'
     },
     "assetsUri": {
       "value": [
-        'https://raw.githubusercontent.com/slapointe/Collab365-2015-Demos/WindowsVirtualMachineWithCse/WindowsVirtualMachine/CustomizeVMScripts/Script.ps1'
+        'https
+        : //raw.githubusercontent.com/slapointe/Collab365-2015-Demos/WindowsVirtualMachineWithCse/WindowsVirtualMachine/CustomizeVMScripts/Script.ps1'
       ]
     }
   }

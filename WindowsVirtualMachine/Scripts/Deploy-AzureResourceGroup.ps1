@@ -2,7 +2,7 @@
 
 Param(
   [string] [Parameter(Mandatory=$true)] $ResourceGroupLocation,
-  [string] $ResourceGroupName = 'Collab365-WindowsVirtualMachine',  
+  [string] $ResourceGroupName = 'Collab365-WindowsVirtualMachine-Copy',  
   [switch] $UploadArtifacts,
   [string] $StorageAccountName,
   [string] $StorageAccountResourceGroupName, 
