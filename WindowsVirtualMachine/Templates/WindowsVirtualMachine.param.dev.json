@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "newStorageAccountName": {
-      "value": 'collab3652015demoswvm'
+      "value": 'collab3652015demoswvm2'
     },
     "adminUsername": {
       "value": 'MyAdministrator'
@@ -19,8 +19,7 @@
     },
     "assetsUri": {
       "value": [
-        'https
-        : //raw.githubusercontent.com/slapointe/Collab365-2015-Demos/WindowsVirtualMachineWithCse/WindowsVirtualMachine/CustomizeVMScripts/Script.ps1'
+        'https://raw.githubusercontent.com/slapointe/Collab365-2015-Demos/WindowsVirtualMachineWithCse/WindowsVirtualMachine/CustomizeVMScripts/Script.ps1'
       ]
     }
   }
