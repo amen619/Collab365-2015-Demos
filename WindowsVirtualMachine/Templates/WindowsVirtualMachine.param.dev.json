@@ -3,23 +3,31 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "newStorageAccountName": {
-      "value": 'collab3652015demoswvm2'
+      "value": "collab3652015demoswvm2"
     },
     "adminUsername": {
-      "value": 'MyAdministrator'
+      "value": "MyAdministrator"
     },
     "dnsNamesForPublicIP": {
       "value": [
-        'collab365-2015-demos-virtual-machine1',
-        'collab365-2015-demos-virtual-machine2'
+        "collab365-2015-demos-virtual-machine1",
+        "collab365-2015-demos-virtual-machine2",
+        "collab365-2015-demos-virtual-machine3",
+        "collab365-2015-demos-virtual-machine4",
+        "collab365-2015-demos-virtual-machine5",
+        "collab365-2015-demos-virtual-machine6",
+        "collab365-2015-demos-virtual-machine7",
+        "collab365-2015-demos-virtual-machine8",
+        "collab365-2015-demos-virtual-machine9",
+        "collab365-2015-demos-virtual-machine10"
       ]
     },
     "scriptToRun": {
-      "value": 'Script.ps1'
+      "value": "Script.ps1"
     },
     "assetsUri": {
       "value": [
-        'https://raw.githubusercontent.com/slapointe/Collab365-2015-Demos/WindowsVirtualMachineWithCse/WindowsVirtualMachine/CustomizeVMScripts/Script.ps1'
+        "https://raw.githubusercontent.com/slapointe/Collab365-2015-Demos/WindowsVirtualMachineWithCse/WindowsVirtualMachine/CustomizeVMScripts/Script.ps1"
       ]
     }
   }
