@@ -8,4 +8,6 @@ choco install 7zip -confirm -force
 
 New-Item C:\CreatedFromCse -ItemType Directory -Force
 
+& $PSScriptRoot\VSCodeSetup.exe /verysilent
+
 exit 0

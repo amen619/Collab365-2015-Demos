@@ -30,6 +30,7 @@
     <Folder Include="Tools\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="CustomizeVMScripts\VSCodeSetup.exe" />
     <None Include="Deployment.targets">
       <Visible>False</Visible>
     </None>
