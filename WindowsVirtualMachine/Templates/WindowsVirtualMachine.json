@@ -211,28 +211,26 @@
     },
     {
       "apiVersion": "2015-05-01-preview",
-
-      "dependsOn": [
-        "[resourceId('Microsoft.Compute/virtualMachines', concat( variables('vmName'), copyIndex() ) )]"
-      ],
-      "location": "[variables('location')]",
+      "type": "Microsoft.Compute/virtualMachines/extensions",
       "name": "[concat(variables('vmName'), copyIndex(), '/PowerShellCommand')]",
+      "location": "[variables('location')]",
       "copy": {
         "name": "cseCopy",
         "count": "[length( parameters('dnsNamesForPublicIP') )]"
       },
+      "dependsOn": [
+        "[resourceId('Microsoft.Compute/virtualMachines', concat( variables('vmName'), copyIndex() ) )]"
+      ],
       "properties": {
         "publisher": "Microsoft.Compute",
+        "type": "CustomScriptExtension",
+        "typeHandlerVersion": "1.4",
+        "autoUpgradeMinorVersion": "true",
         "settings": {
           "commandToExecute": "[concat('powershell.exe -ExecutionPolicy Unrestricted -File ', parameters('scriptToRun'))]",
           "fileUris": "[parameters('assetsUri')]"
-        },
-        "type": "CustomScriptExtension",
-        "typeHandlerVersion": "1.4",
-        "autoUpgradeMinorVersion": "true"
-      },
-      "type": "Microsoft.Compute/virtualMachines/extensions"
+        }
+      }
     }
-
   ]
 }
