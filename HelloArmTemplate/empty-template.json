@@ -4,5 +4,10 @@
    "parameters": {  },
    "variables": {  },
    "resources": [],
-   "outputs": {   }
+   "outputs": {  
+       "MyFirstTemplateOutput" : {
+           "type": "string",
+           "value": "MyFirstOutputValue"
+       }
+    }
 }

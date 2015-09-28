@@ -11,4 +11,4 @@ New-AzureResourceGroup -Name 'Collab365-HelloArmTemplate' -DeploymentName 'Empty
 
 # You can also do...
 #New-AzureResourceGroup -Name 'Collab365-HelloArmTemplate' -Location 'East US 2'
-#New-AzureResourceGroupDeployment -ResourceGroupName 'Collab365-HelloArmTemplate' -Name 'EmptyTemplateDeployment' -TemplateFile "$PSScriptRoot\empty-template.json"
+#New-AzureResourceGroupDeployment -ResourceGroupName 'Collab365-HelloArmTemplate' -Name 'EmptyTemplateDeployment' -TemplateFile "$PSScriptRoot\empty-template.json" -Mode Incremental
