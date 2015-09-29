@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "newStorageAccountName": {
-            "value": 'collab3652015demoswvm'
+            "value": "collab3652015demoswvm"
         },
         "adminUsername": {
-            "value": 'MyAdministrator'
+            "value": "MyAdministrator"
         },
         "dnsNameForPublicIP": {
-            "value": 'collab365-2015-demos-virtual-machine'
+            "value": "collab365-2015-demos-virtual-machine"
         }
     }
 }
