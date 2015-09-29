@@ -22,7 +22,7 @@
     },
     "assetsUri": {
       "value": [
-        "https://raw.githubusercontent.com/slapointe/Collab365-2015-Demos/WindowsVirtualMachineWithCse/WindowsVirtualMachine/CustomizeVMScripts/Script.ps1"
+        "https://raw.githubusercontent.com/slapointe/Collab365-2015-Demos/WindowsVirtualMachineWithCseAndCopy/WindowsVirtualMachine/CustomizeVMScripts/Script.ps1"
       ]
     }
   }
